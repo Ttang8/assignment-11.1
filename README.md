@@ -18,7 +18,7 @@ After checking data for NA, Year and odometer have minimal entries missing with 
 
 ![image 1](images/odometer_vs_price.png "odometer_vs_price")
 ![image 2](images/year_vs_price.png "odometer_vs_price")
-![image 3](images/heatmap.png "odometer_vs_price")
+![image 3](images/heatmap.PNG "odometer_vs_price")
 
 See trend of as odometer goes up, price goes down. For year, the more recent the year of the car, the price goes up. Looking at corelation, there is a positive correlation between year and price, and a negative correlation between odometer and price which is what was expected from looking at the trend.
 
@@ -33,7 +33,7 @@ fuel has high negative correlation
 
 Calculated PCA with 2 components.
 Using inertia score determined that 4 clusters was the best for Kmeans.
-![image 4](images/kmeans.png "odometer_vs_price")
+![image 4](images/kmeans.PNG "odometer_vs_price")
 
 Used Lasso, Ridge, and RFE model. Refer to Jupyter notebook for more calculations and figures.
 
