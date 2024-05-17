@@ -44,16 +44,16 @@ Used Lasso, Ridge, and RFE model. Refer to Jupyter notebook for more calculation
 
 Findings analysis:
 Using Lasso model, top four features based on coef are:
-odometer	-5646.544166
-fuel	-4278.261595
-year	3056.502540
-drive_fwd	-2409.524334
+- odometer	-5646.544166
+- fuel	-4278.261595
+- year	3056.502540
+- drive_fwd	-2409.524334
 
 Using Ridge Model, top four features based on coef are:
-year	3054.709596
-odometer	-5245.825806
-drive_fwd	-4411.147265
-fuel	-4866.827595
+- year	3054.709596
+- odometer	-5245.825806
+- drive_fwd	-4411.147265
+- fuel	-4866.827595
 
 Lasso had mean squared error for training and test sets as 70500925.78192995 and 69385179.60703374 respectively.
 Ridge had mean squared error for training and test sets as 77631486.3672506 and 77297563.88485795 respectively.
