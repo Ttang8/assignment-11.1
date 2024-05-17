@@ -17,8 +17,8 @@ Steps to start to get to know the dataset: Checking the number of features and r
 After checking data for NA, Year and odometer have minimal entries missing with 0.28% and 1.03% respetively. For the purpose of the questions that is trying to be answerd dropping all NA values should not affect the dataset.
 
 ![image 1](images/odometer_vs_price.png "odometer_vs_price")
-![image 2](images/year_vs_price.png "odometer_vs_price")
-![image 3](images/heatmap.PNG "odometer_vs_price")
+![image 2](images/year_vs_price.png "year vs price")
+![image 3](images/heatmap.PNG "heatmap")
 
 See trend of as odometer goes up, price goes down. For year, the more recent the year of the car, the price goes up. Looking at corelation, there is a positive correlation between year and price, and a negative correlation between odometer and price which is what was expected from looking at the trend.
 
@@ -32,8 +32,11 @@ fuel has high negative correlation
 ### Modeling
 
 Calculated PCA with 2 components.
+![image 4](images/pca.png "pca")
 Using inertia score determined that 4 clusters was the best for Kmeans.
-![image 4](images/kmeans.PNG "odometer_vs_price")
+![image 5](images/kmeans.PNG "kmeans")
+![image 6](images/kmeans_scatter.png "kmeans scatter")
+
 
 Used Lasso, Ridge, and RFE model. Refer to Jupyter notebook for more calculations and figures.
 
